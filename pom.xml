@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>gaming.edinburgh</groupId>
+  <artifactId>eggbot</artifactId>
+  <version>1</version>
+  
+  	<repositories>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+		<repository>
+		    <id>jcenter</id>
+		    <url>http://jcenter.bintray.com</url>
+		</repository>
+	</repositories>
+	
+	<dependencies>
+		  <dependency>
+		    <groupId>com.github.Discord4J</groupId> <!-- However our packages are all under sx.blah in version 2.x! -->
+		    <artifactId>Discord4J</artifactId>
+		    <version>3.0.11</version>
+		  </dependency>
+		  
+		<dependency>
+		    <groupId>org.apache.commons</groupId>
+		    <artifactId>commons-io</artifactId>
+		    <version>1.3.2</version>
+		</dependency>
+	</dependencies>
+</project>
